@@ -14,7 +14,7 @@ const app = express();
 app.use(
   cors({
     origin: "http://localhost:3005",
-    optionsSuccessStatus: 200,
+    optionsSuccessStatus: ,
   }),
 );
 app.use(express.json());
